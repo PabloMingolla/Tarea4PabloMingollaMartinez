@@ -25,6 +25,37 @@ public class Tarea {
         this.listado = true;
         this.contador = 0;
     }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public boolean isListado() {
+        return listado;
+    }
+
+    public int getContador() {
+        return contador;
+    }
+
+    @Override
+    public String toString() {
+        return "Tarea{" + "peso=" + peso + ", listado=" + listado + ", contador=" + contador + '}';
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setListado(boolean listado) {
+        this.listado = listado;
+    }
+
+    public void setContador(int contador) {
+        this.contador = contador;
+    }
+    
+    
     
     
 }
