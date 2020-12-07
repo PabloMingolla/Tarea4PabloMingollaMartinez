@@ -37,13 +37,7 @@ public class Tarea {
     public int getContador() {
         return contador;
     }
-
-    @Override
-    public String toString() {
-        return "Tarea{" + "peso=" + peso + ", listado=" + listado + ", contador=" + contador + '}';
-    }
-
-    public void setPeso(double peso) {
+        public void setPeso(double peso) {
         this.peso = peso;
     }
 
@@ -54,6 +48,12 @@ public class Tarea {
     public void setContador(int contador) {
         this.contador = contador;
     }
+    @Override
+    public String toString() {
+        return "Tarea{" + "peso=" + peso + ", listado=" + listado + ", contador=" + contador + '}';
+    }
+
+
     
     
     

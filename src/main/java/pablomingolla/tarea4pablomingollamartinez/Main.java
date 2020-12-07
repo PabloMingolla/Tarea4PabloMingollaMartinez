@@ -16,6 +16,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Tarea a= new Tarea();
+        Tarea b= new Tarea(15.5, true, 5);
+        System.out.println(a.toString());
+        System.out.println(b.toString());
     }
     
 }
