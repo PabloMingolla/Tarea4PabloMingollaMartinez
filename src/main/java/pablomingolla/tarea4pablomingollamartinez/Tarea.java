@@ -13,4 +13,18 @@ public class Tarea {
     double peso;
     boolean listado;
     int contador;
+
+    public Tarea(double peso, boolean listado, int contador) {
+        this.peso = peso;
+        this.listado = listado;
+        this.contador = contador;
+    }
+
+    public Tarea() {
+        this.peso = 0;
+        this.listado = true;
+        this.contador = 0;
+    }
+    
+    
 }
